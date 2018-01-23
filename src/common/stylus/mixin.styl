@@ -1,0 +1,68 @@
+
+//css单行省略
+cssSpaceEll()
+  overflow hidden
+  text-overflow ellipsis
+  white-space nowrap
+
+// 连接的大小设置
+fontSizeMediaLink()
+  @media screen and (min-width: 1200px)
+    font-size: 18px
+  @media screen and (max-width: 1199px) and (min-width: 1000px)
+    font-size: 17px
+  @media screen and (max-width: 999px)
+    font-size: 16px
+    
+// 今日观点标题
+todayTipTitle()
+  @media screen and (min-width: 801px)
+    font-size 18px
+  @media screen and (max-width: 800px)
+    font-size 16px
+
+// 今日观点正文
+todayTipContent()
+  @media screen and (min-width: 801px)
+    font-size 15px
+  @media screen and (max-width: 800px)
+    font-size 13px
+    
+//首页图片
+homeItemPic()
+  @media screen and (min-width: 650px)
+    width: 220px
+    height: 150px
+  @media screen and (min-width: 481px) and (max-width: 649px)
+    width: 160px
+    height: 109px
+  @media screen and (max-width: 480px)
+    width: 100px
+    height: 68px
+    
+//首页item的标题
+homeItemTitle()
+  @media screen and (min-width 650px)
+    font-size 18px
+  @media screen and (min-width: 481px) and (max-width: 649px)
+    font-size 17px
+  @media screen and (max-width: 480px)
+    font-size 16px
+    
+//首页item的图标字体跟内容
+homeItemIconCon()
+  @media screen and (min-width 650px)
+    font-size 13px
+  @media screen and (min-width: 481px) and (max-width: 649px)
+    font-size 12px
+  @media screen and (max-width: 480px)
+    font-size 11px
+
+//首页item的内容隐藏
+homeItemContent()
+  @media screen and (min-width 600px)
+    display block
+    font-size 13px
+  @media screen and  (max-width: 599px)
+    display none
+
